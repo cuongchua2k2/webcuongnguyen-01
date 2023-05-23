@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -79,7 +84,7 @@ div.avatar {
 
 .hero-wrap {
   background-color: #e6f0ff;
-  height: 736px;
+  height: calc(736px - 90px);
   position: relative;
 }
 
@@ -166,7 +171,7 @@ div.avatar {
 .hero .hero-img {
   position: absolute;
   bottom: 0;
-  right: 65px;
+  right: calc((100vw - 1110px) / 2 - 100px);
 }
 
 /* ----------client--------------- */
