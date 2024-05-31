@@ -95,7 +95,7 @@
       <div class="content">
         <nav class="navbar">
           <!-- tablet, mobile menu -->
-          <label for="menu-mobile" class="toggle-menu"
+          <label for="" class="toggle-menu"
             ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path
                 fill="#666"
@@ -111,16 +111,12 @@
               class="logo__navbar"
           /></a>
           <!-- navigation -->
-          <ul id="nav-pc">
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#service">Services</a></li>
             <li><a href="#feature">Features</a></li>
             <li><a href="#resource">Resources</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li class="signin-mobile separate">
-              <a href="#contact">Sign in</a>
-            </li>
-            <li class="signup-mobile"><a href="#contact">Sign up</a></li>
           </ul>
           <!-- action -->
           <div class="actions">
@@ -134,32 +130,13 @@
     <!-- tablet, mobile header -->
 
     <header class="mobile-header">
-      <input
-        type="checkbox"
-        name="menu-mobile"
-        id="menu-mobile"
-        class="menu-checkbox"
-      />
       <!-- overlay -->
-      <label for="menu-mobile" class="menu-overlay"></label>
+      <div class="menu-overlay"></div>
 
       <!-- menu content -->
-      <div class="menu-drawer">
-        <!-- logo mobile -->
-        <a href="#"
-          ><img src="./assets/img/Logo.svg" alt="Besnik." class="logo__mobile"
-        /></a>
-        <!-- navigation mobile-->
-        <ul id="nav-mobile"></ul>
-        <script>
-          const navPc = document.querySelector("#nav-pc");
-          const navMobile = document.querySelector("#nav-mobile");
-          navMobile.innerHTML = navPc.innerHTML;
-        </script>
-      </div>
+      <div class="menu-drawer"></div>
     </header>
 
-    <!-- main -->
     <main>
       <!-- HERO -->
       <div class="hero-wrap">
