@@ -224,18 +224,14 @@
   }
 
   .qty-list .qty-item {
-    width: 90%;
-    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+    align-items: space-between;
   }
 
   .stats .qty-item .qty-desc {
     margin-top: 0;
-    /* margin-left: 20px; */
-    width: 150px;
-    overflow: hidden;
+    margin-left: 20px;
   }
 
   .subcription .body .info {

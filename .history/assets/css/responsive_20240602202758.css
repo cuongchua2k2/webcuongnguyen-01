@@ -233,9 +233,7 @@
 
   .stats .qty-item .qty-desc {
     margin-top: 0;
-    /* margin-left: 20px; */
-    width: 150px;
-    overflow: hidden;
+    margin-left: 20px;
   }
 
   .subcription .body .info {
