@@ -188,9 +188,6 @@
     width: 100%;
   }
 
-  .hero-wrap {
-    height: calc(100vh - 76px);
-  }
   .hero .info,
   .hero .desc {
     margin-top: 20px;
@@ -303,11 +300,6 @@
     padding: 0;
     margin: 0px auto;
     text-align: center;
-  }
-
-  .subcription .body {
-    height: auto;
-    padding: 40px 0;
   }
 
   .footer .row {

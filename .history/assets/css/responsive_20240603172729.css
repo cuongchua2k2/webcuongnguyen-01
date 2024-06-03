@@ -189,7 +189,7 @@
   }
 
   .hero-wrap {
-    height: calc(100vh - 76px);
+    height: calc(100vh - 80px);
   }
   .hero .info,
   .hero .desc {

@@ -188,33 +188,13 @@
     width: 100%;
   }
 
-  .hero-wrap {
-    height: calc(100vh - 76px);
-  }
   .hero .info,
   .hero .desc {
     margin-top: 20px;
   }
 
-  .clients .rate.desc-logo {
-    text-align: left;
-  }
   .clients .rate {
-    text-align: right;
-    margin-top: 23px;
-  }
-
-  .guides .desc {
-    width: 100%;
-  }
-
-  .guides .list-guides {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .guides .guide-items .title {
-    margin-top: 20px;
+    margin-left: auto;
   }
 
   .hero .title {
@@ -222,8 +202,6 @@
   }
 
   .featured .sub-title {
-    font-size: 3.3rem;
-    width: 100%;
     text-align: center;
   }
 
@@ -244,29 +222,8 @@
     margin: 0px auto;
   }
 
-  .featured .info .icon:not(:nth-child(1)) {
-    margin-left: 16px;
-  }
-
   .stats .img-block .thumb-stat {
-    margin-left: 0;
-    max-width: 100%;
-  }
-
-  .stats .img-block .stats-trend {
-    top: 20px;
-    left: 20px;
-    padding: 20px;
-    border-radius: 17px;
-  }
-
-  .stats .info .sub-title,
-  .stats .info .desc {
-    width: 100%;
-  }
-
-  .stats .info .desc {
-    font-size: 1.4rem;
+    max-width: 350px;
   }
 
   .stats .qty-item .qty {
@@ -303,11 +260,6 @@
     padding: 0;
     margin: 0px auto;
     text-align: center;
-  }
-
-  .subcription .body {
-    height: auto;
-    padding: 40px 0;
   }
 
   .footer .row {

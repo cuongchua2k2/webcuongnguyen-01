@@ -188,9 +188,6 @@
     width: 100%;
   }
 
-  .hero-wrap {
-    height: calc(100vh - 76px);
-  }
   .hero .info,
   .hero .desc {
     margin-top: 20px;
@@ -250,14 +247,7 @@
 
   .stats .img-block .thumb-stat {
     margin-left: 0;
-    max-width: 100%;
-  }
-
-  .stats .img-block .stats-trend {
-    top: 20px;
-    left: 20px;
-    padding: 20px;
-    border-radius: 17px;
+    max-width: 330px;
   }
 
   .stats .info .sub-title,
@@ -303,11 +293,6 @@
     padding: 0;
     margin: 0px auto;
     text-align: center;
-  }
-
-  .subcription .body {
-    height: auto;
-    padding: 40px 0;
   }
 
   .footer .row {

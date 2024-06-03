@@ -188,9 +188,6 @@
     width: 100%;
   }
 
-  .hero-wrap {
-    height: calc(100vh - 76px);
-  }
   .hero .info,
   .hero .desc {
     margin-top: 20px;
