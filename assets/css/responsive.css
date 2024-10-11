@@ -325,3 +325,9 @@
     flex-direction: column;
   }
 }
+
+/* mobile small */
+
+@media screen and (max-width:575.98px) {
+    
+}
